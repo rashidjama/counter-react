@@ -6,7 +6,7 @@ import CounterHooks from './CounterHooks';
 export const ThemeContext = React.createContext();
 
 function App() {
-  const [theme, setTheme] = useState("red")
+  const [theme, setTheme] = useState("purple")
   return (
     <div className="App">
       <ThemeContext.Provider value={{backgroundColor: theme}}>
